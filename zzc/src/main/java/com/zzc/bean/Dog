@@ -1,0 +1,26 @@
+package com.zzc.bean;
+
+public class Dog {
+
+    private String Dname;
+    
+    private String Dage;
+    
+    public String getDname() {
+        return Dname;
+    }
+
+    public void setDname(String Dname) {
+        this.Dname = Dname;
+    }
+
+    public int getDage() {
+        return Dage;
+    }
+
+    public void setDage(int Dage) {
+        this.Dage = Dage;
+    }
+    
+    
+}
